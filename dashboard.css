@@ -20,9 +20,6 @@ a.nav-link{
 	color:#7bcf46;
 	font-size: 2rem;
 }
-.navbar-toggler{
-	background-color: #e0f28a!important;
-}
 h1{
   padding: auto 0;
   text-align: center;
@@ -36,7 +33,7 @@ div.profile.container{
   height: 100%;
   z-index: 1;
   overflow-x: hidden;
-  position:relative;
+  position:fixed;
   float:left;
   display: flex;
   flex-direction: column;
@@ -73,4 +70,7 @@ button{
  width: 60%;
  position:relative;
  float:right;
+}
+.navbar-toggler{
+	background-color: #e0f28a!important;
 }
