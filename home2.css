@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@400;700&display=swap');
+
+*
+{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-item{
+  margin-left: 75px;
+}
+.hamburger{
+  display: none;
+}
+
+.link{
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+text-decoration: none;
+color: #8DA02F;
+}
+
+li{
+  list-style-type: none;
+}
+
+a:hover{
+  color: #431C05;
+  transition: 500ms;
+  }
+
+h1{
+  font-family: League Spartan;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+text-align: center;
+
+color: #95705B;
+
+position: absolute;
+width: 518px;
+height: 2rem;
+left: 129px;
+top: 250px;
+}
+
+p{
+  position: absolute;
+width: 518px;
+height: 171px;
+left: 129px;
+top: 435px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+
+color: #000000;
+}
+
+.started{
+  color: #ffff;
+  background: #9BB81A;
+  border-radius: 25px;
+  padding: 1rem;
+
+  width: 342px;
+  height: 36px;
+  left: 500px;
+  top: 300px;
+}
